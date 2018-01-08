@@ -60,6 +60,12 @@
 - python -m pip install pyvirtualdisplay
 - py get-pip.py
 
+##### 3.1.1 Install future and jsonschema
+- Go to C:\\Program Files (x86)\\Python36-32\\Scripts
+- press Shift + Right click and open command window (with admin rights !!) and type
+- pip install future
+-pip install jsonschema
+
 ##### 3.2 Download the GUI (optional)
 - Download the zip-File from the GUI-tool-for-InstaPy-script.
 - follow the install instructions on this page.
@@ -70,13 +76,6 @@
 - Download the newest chrome driver.
 - copy it in the folder \\assets
 > [https://sites.google.com/a/chromium.org/chromedriver/downloads]
-
-
-#### 4. Edit the instapy.py file
-- Open file instapy.py an disabling the clarifai import
-- comment the line "from .clarifai_util import check_image"
-> `from .clarifai_util import check_image`
-
 
 #### 5. Starting the script
 - Start the Gui by clicking at the file InstaPy.exe
